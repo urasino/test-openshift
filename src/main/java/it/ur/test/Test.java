@@ -34,9 +34,8 @@ public class Test extends HttpServlet {
 		// TODO Auto-generated method stub
 		Calendar cal = Calendar.getInstance();
 		
-		response.getWriter().append("Prima Pagina per OpenShift 3 Online");
-		response.getWriter().append("\n---");
-		response.getWriter().append("\nTime: " + sdf.format(cal.getTime()));
+		String timeMessage = "Time: " + sdf.format(cal.getTime());
+		response.getWriter().append("Seconda Pagina per OpenShift 3 Online. " + timeMessage);
 	}
 
 	/**
