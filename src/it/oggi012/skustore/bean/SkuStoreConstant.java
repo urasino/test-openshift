@@ -3,7 +3,7 @@ package it.oggi012.skustore.bean;
 public interface SkuStoreConstant {
 
 	public static final boolean FLAG_BRANCHES = true;
-	public static final boolean FLAG_SHOW_DATABASE_PASSWORD = true;
+	public static final boolean FLAG_SHOW_DATABASE_PASSWORD = false;
 	public static final boolean FLAG_DATABASE_ONLINE = true;
 	
 	public static final int LEVEL_APP = 5;
